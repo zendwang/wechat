@@ -52,3 +52,6 @@ environments/            contains environment-based overrides
 tests                    contains various tests for the advanced application
     codeception/         contains tests developed with Codeception PHP Testing Framework
 ```
+CREATE DATABASE IF NOT EXISTS yii2advanced DEFAULT CHARSET utf8 COLLATE utf8_general_ci;
+php yii migrate;//install user table
+php yii migrate --migrationPath=@callmez/wechat/migrations
