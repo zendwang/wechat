@@ -26,7 +26,7 @@ class IndexController extends Controller
         $this->wechat = Yii::$app->wechat;
     }
     public function actionIndex() {
-
+        return 'index';
     }
     /**
      * Displays homepage.

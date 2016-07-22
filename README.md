@@ -57,3 +57,6 @@ composer update;
 php init;
 php yii migrate;//install user table
 php yii migrate --migrationPath=@callmez/wechat/migrations
+
+//test git rebase
+
